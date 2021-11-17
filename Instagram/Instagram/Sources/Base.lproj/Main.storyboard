@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="xaY-tl-3No">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Tab Bar Controller-->
+        <scene sceneID="rxR-BO-ZA7">
+            <objects>
+                <tabBarController storyboardIdentifier="TabVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="xaY-tl-3No" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="rcU-bB-c6S">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="barTintColor" systemColor="tintColor"/>
+                        <color key="selectedImageTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Ga8-wl-g8j" kind="relationship" relationship="viewControllers" id="hbt-Jx-phJ"/>
+                        <segue destination="qed-YU-305" kind="relationship" relationship="viewControllers" id="STp-uB-tCq"/>
+                        <segue destination="KZv-Ds-Ycy" kind="relationship" relationship="viewControllers" id="TTw-Te-Hw3"/>
+                        <segue destination="WNa-uE-yPE" kind="relationship" relationship="viewControllers" id="opA-ch-fdx"/>
+                        <segue destination="KDk-0c-7AK" kind="relationship" relationship="viewControllers" id="5Xk-Ua-CtY"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="roK-AZ-atp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="729" y="-86"/>
+        </scene>
+        <!--HomeNC-->
+        <scene sceneID="ZGt-hD-dxx">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="HomeNC" storyboardName="HomeStoryboard" referencedIdentifier="HomeNC" id="Ga8-wl-g8j" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="4jm-mF-0LL"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aO3-lI-OMa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-26" y="469"/>
+        </scene>
+        <!--SearchNC-->
+        <scene sceneID="Biz-Zl-JU0">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="SearchStoryboard" storyboardName="SearchStoryboard" referencedIdentifier="SearchNC" id="qed-YU-305" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="BwF-Yk-SIA"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Q59-QW-eHb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="296" y="469"/>
+        </scene>
+        <!--ReelsVC-->
+        <scene sceneID="EMl-KG-8oe">
+            <objects>
+                <viewControllerPlaceholder storyboardName="ReelsStoryboard" referencedIdentifier="ReelsVC" id="KZv-Ds-Ycy" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="kxL-q0-BSY"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qrr-CY-8eE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="630" y="469"/>
+        </scene>
+        <!--ShopVC-->
+        <scene sceneID="7by-GL-l5O">
+            <objects>
+                <viewControllerPlaceholder storyboardName="ShopStoryboard" referencedIdentifier="ShopVC" id="WNa-uE-yPE" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="qfl-Dq-eln"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xZk-zj-3Ju" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="941" y="469"/>
+        </scene>
+        <!--MyPageNC-->
+        <scene sceneID="YCN-4J-R8L">
+            <objects>
+                <viewControllerPlaceholder storyboardName="MyPageStoryboard" referencedIdentifier="MyPageNC" id="KDk-0c-7AK" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="opR-zu-vDx"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PDU-PK-fFs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1295" y="469"/>
+        </scene>
+    </scenes>
+    <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+    <resources>
+        <systemColor name="tintColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
