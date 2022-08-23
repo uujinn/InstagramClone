@@ -1,6 +1,7 @@
 # InstagramClone
 
 - `MVC`
+- `UIKit`
 - `Alamofire`
 
 [실행 영상](https://drive.google.com/file/d/1wmY8QqiPwOyeOzsGmYtTGEGtt6229SEP/view?usp=sharing)
